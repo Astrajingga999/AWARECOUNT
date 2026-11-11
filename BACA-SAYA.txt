@@ -1,0 +1,23 @@
+KEUANGANKU - PASANG DI GITHUB PAGES (GRATIS)
+
+1. Buka github.com, daftar atau masuk.
+2. Klik "+" di kanan atas > New repository.
+   Nama: keuanganku   |   pilih Public   |   klik Create repository.
+3. Di halaman repo, klik "uploading an existing file".
+   Seret SEMUA file hasil ekstrak zip ini (index.html, sw.js,
+   manifest.webmanifest, icon-192.png, icon-512.png) lalu klik Commit changes.
+   Pastikan file langsung di dalam repo, bukan di dalam folder lagi.
+4. Buka Settings > Pages. Di "Build and deployment":
+   Source = Deploy from a branch, Branch = main, folder = / (root), klik Save.
+5. Tunggu 1-2 menit. Alamatnya:  https://NAMA-GITHUB-KAMU.github.io/keuanganku/
+6. Buka alamat itu di Chrome HP (butuh internet sekali saja).
+   Menu titik tiga > "Instal aplikasi" atau "Tambahkan ke layar utama".
+7. Setelah terpasang, buka dari ikon di menu HP. Aplikasi jalan tanpa internet.
+
+Catatan:
+- Repo Public berarti kode aplikasinya bisa dilihat orang. Data keuanganmu TIDAK
+  ikut, karena tersimpan di HP-mu saja.
+- Data tersimpan per alamat. Pindahkan data lama lewat Target > Cadangkan data.
+- Untuk memperbarui aplikasi, upload ulang index.html ke repo, lalu naikkan angka
+  "keuanganku-v1" di sw.js (misal jadi v2) supaya HP mengambil versi baru.
+- Notifikasi dan alarm yang berbunyi saat aplikasi tertutup tetap butuh versi APK.
